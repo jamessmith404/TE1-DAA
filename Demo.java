@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.Random;
 
 import com.cbis.CBIS;
+import com.cbis.RQS;
 
 public class Demo {
     public static void main(String[] args) {
