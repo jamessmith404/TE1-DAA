@@ -26,7 +26,7 @@ public class RQS {
         a_list[right] = temp;
 
         int pivot = a_list[right];
-        int last_filled = left--;
+        int last_filled = left-1;
 
         for (int i = left; i < right; i++) {
             if (a_list[i] <= pivot) {

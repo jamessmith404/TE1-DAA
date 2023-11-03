@@ -10,19 +10,20 @@ public class Demo {
         // String[] sizes = {"kecil", "sedang", "besar"};
         // String[] statuses = {"sorted", "random", "reversed"};
 
-        String size = "sedang";
+        String size = "besar";
         String status = "random";
+
         
+        // int[] arr = {1,5,3,7,2,5,9,8};
         int[] arr = Generator.generateArray(size, status);
 
         long startTime = System.nanoTime();
-        int[] sortedArr = CBIS.sort(arr);
+        int[] sortedArr = RQS.sort(arr);
         long endTime = System.nanoTime();
 
         double ms = (endTime - startTime) / 1_000_000.0;
 
         System.out.printf("Size: %s; Status: %s; Time elapsed: %f ms%n", size, status, ms);
-
 
         // for (String size: sizes) {
         //     for (String status: statuses) {
