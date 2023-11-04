@@ -1,4 +1,4 @@
-package com.cbis;
+package com.algorithms;
 
 import java.util.Random;
 
